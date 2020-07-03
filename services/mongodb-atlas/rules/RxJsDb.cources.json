@@ -1,0 +1,22 @@
+{
+    "id": "5efd217b7997829f669b275c",
+    "database": "RxJsDb",
+    "collection": "cources",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "fields": {
+                "category": {},
+                "description": {},
+                "id": {},
+                "level": {}
+            },
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "additional_fields": {}
+        }
+    ],
+    "schema": {}
+}

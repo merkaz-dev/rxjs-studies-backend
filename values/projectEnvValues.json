@@ -1,0 +1,9 @@
+{
+    "id": "5efd15075f4a736872ae8bd4",
+    "name": "projectEnvValues",
+    "value": {
+        "courses": "courses",
+        "db": "RxJsDb"
+    },
+    "from_secret": false
+}
