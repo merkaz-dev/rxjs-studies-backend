@@ -3,7 +3,10 @@ exports = async function () {
     const coll = await context.functions.execute(
       "util_db_get_courses_collection"
     );
-    return await coll.find().toArray();
+    const courses = await coll.find().toArray();
+    return {
+      payload: courses,
+    };
   } catch (e) {
     return Error(e.message);
   }

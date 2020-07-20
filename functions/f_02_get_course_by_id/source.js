@@ -4,7 +4,8 @@ exports = async function (courseId) {
       "util_db_get_courses_collection"
     );
 
-    return await coll.findOne({ id: parseInt(courseId) });
+    const course = await coll.findOne({ id: parseInt(courseId) });
+    return { payload: course };
   } catch (e) {
     return Error(e.message);
   }

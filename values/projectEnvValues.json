@@ -3,7 +3,9 @@
     "name": "projectEnvValues",
     "value": {
         "courses": "courses",
-        "db": "RxJsDb"
+        "db": "RxJsDb",
+        "lessons": "lessons",
+        "users": "users"
     },
     "from_secret": false
 }
